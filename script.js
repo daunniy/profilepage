@@ -70,7 +70,7 @@ const observer = new IntersectionObserver((entries) => {
         spans.forEach((span, index) => {
           setTimeout(() => {
             span.classList.add('visible');
-          }, index * 500);  // 0.5초 간격으로 순차적으로 등장
+          }, index * 700);  // 0.5초 간격으로 순차적으로 등장
         });
       } 
       // .timeline의 경우: 전체 요소 등장

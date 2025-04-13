@@ -199,7 +199,7 @@ h2 {
 }
 
 .sub-text {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 200;
   margin-top: 260px;
   text-align: center;
@@ -306,7 +306,7 @@ h2 {
   transition: opacity 0.8s ease, transform 0.8s ease; /* 부드러운 전환 */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* 타임라인이 등장할 때 */
@@ -418,11 +418,15 @@ h2 {
   color: #000;
 }
 
-.like {
+.like, .keyword {
   margin-bottom: 10px;
 }
 
-.like strong, .keyword strong {
+.like strong, .keyword strong, .skill strong {
   font-size: 1rem;
   color: #FC9FCC;
+}
+
+.skill img {
+  width: 30px;
 }
