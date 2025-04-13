@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>신다은 포트폴리오</title>
+</head>
+<body>
+  <!-- 메뉴 -->
+  <div id="progress-bar"></div>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home" class="nav-link">🏠</a></li>
+      <li><a href="#intro" class="nav-link">💼</a></li>
+      <li><a href="#profile" class="nav-link">🔍</a></li>
+      <li><a href="#portfolio" class="nav-link">🎨</a></li>
+      <li><a href="#contact" class="nav-link">📧</a></li>
+    </ul>
+  </nav>
+
+  <!-- header -->
+  <section id="home">
+    <h1>안녕하세요</h1>
+    <h2>
+      <span class="typing-box highlighted">
+        <span id="typing-container"></span>
+      </span>
+      <span class="fixed-name"><strong>신다은</strong>입니다</span>
+    </h2>
+    <p class="sub-text">쌓여가는 <span>경험</span> 위에<br><span>나만의 무드</span>를 얹는 중입니다</p>
+    <div class="footer-info">
+      <span class="current-date">25.04</span> <!-- 날짜 -->
+      <p class="portfolio-text">PORTFOLIO</p> <!-- 포트폴리오 문구 -->
+    </div>
+    
+    <div class="scroll-indicator">
+      <span>&#8595;</span> <!-- 아래로 향하는 화살표 -->
+    </div>  
+  </section>
+
+  <section id="intro">
+    <div class="section-text">
+      <p>
+        <span>UI/UX 개발 과정을 수료하고<br><span>디자이너</span>로 근무하고있습니다.</span><br>
+      </p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="text-box">
+          <h3>동안기획 디자이너</h3>
+          <p>25.02 ~</p>
+        </div>
+        <div class="circle"></div>
+      </div>
+    
+      <div class="timeline-item right">
+        <div class="circle"></div>
+        <div class="text-box">
+          <h3>SBS아카데미 구월<br>UI/UX 개발자 과정</h3>
+          <p>24.03 ~ 11</p>
+        </div>
+      </div>
+    
+      <div class="timeline-item left">
+        <div class="text-box">
+          <h3>관세법인 우신</h3>
+          <p>24.02 ~ 03</p>
+        </div>
+        <div class="circle"></div>
+      </div>
+    
+      <div class="timeline-item right">
+        <div class="circle"></div>
+        <div class="text-box">
+          <h3>인천관세법인 주임</h3>
+          <p>21.12 ~ 23.12</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="profile">
+    <span>
+    <div class="section-text">
+      <p>빠른 시작,<br><span><strong class="highlight-animated">단단한 전환</strong></p></span>
+      <div class="profile-content">
+        <img src="imgage/profile.png" alt="My Photo" class="profile-photo">
+        <div class="profile-details">
+          <h3><strong>신다은</strong> shin da eun</h3>
+            <p>🎂 03.08.05</p> <p>📍 INTJ</p> <p>🎓 금융고</p> <p>📞 010-2220-4254</p> <p>📧 d_a_u_n@naver.com</p>
+          </div>
+      </div>
+      <div class="like">
+        <strong>Like</strong><br>
+        <p>🎧 Lo-fi</p> <p>📕 독서</p> <p>🧩 나만의 속도, 나만의 페이스</p> <p>📷 사진</p> 
+      </div>
+      <div class="keyword">
+        <strong>Keyword</strong><br>
+        <p>#감성</p> <p>#속도</p> <p>#차분함</p> <p>#균형</p> <p>#조화</p>
+      </div>
+    </div>
+    </span>
+  </section>
+
+  <section id="portfolio">
+    <div class="section-text">
+      <span>
+        <h2>포트폴리오</h2>
+        <div class="project">
+          <h3>프로젝트 1: 웹사이트 디자인</h3>
+          <p>이 프로젝트는 사용자 경험을 개선하는 웹사이트 디자인 프로젝트였습니다. 사용자의 흐름을 분석하고, 직관적인 인터페이스를 제공하는 것을 목표로 했습니다.</p>
+          <img src="portfolio1.jpg" alt="Project 1">
+        </div>
+        <div class="project">
+          <h3>프로젝트 2: 모바일 앱 디자인</h3>
+          <p>이 프로젝트는 모바일 앱의 UI/UX 디자인을 맡았습니다. 다양한 기능을 직관적으로 배치하여 사용자 경험을 개선했습니다.</p>
+          <img src="portfolio2.jpg" alt="Project 2">
+        </div>
+      </span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-text">
+      <span>
+        <h2>연락처</h2>
+        <p>저와 함께 프로젝트를 진행하고 싶으시면 아래의 연락처로 연락주세요!</p>
+        <ul>
+          <li><strong>이메일:</strong> example@example.com</li>
+          <li><strong>전화:</strong> 010-1234-5678</li>
+          <li><strong>링크드인:</strong> <a href="https://www.linkedin.com/in/example">linkedin.com/in/example</a></li>
+        </ul>
+      </span>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/hangul-js"></script>
+  <script src="https://unpkg.com/type-hangul@latest/dist/type-hangul.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
